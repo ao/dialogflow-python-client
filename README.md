@@ -1,22 +1,17 @@
-api.ai: Python SDK for `API.AI <http://api.ai>`_
+DialogFlow: Python SDK for `DialogFlow <http://dialogflow.com>`_
 =========================
 
-.. image:: https://badge.fury.io/py/apiai.svg
-    :target: http://badge.fury.io/py/apiai
-
-.. image:: https://travis-ci.org/api-ai/api-ai-python.svg
-    :target: https://travis-ci.org/api-ai/api-ai-python
-
+[<img src="https://badge.fury.io/py/apiai.svg">](http://badge.fury.io/py/apiai) [<img src="https://travis-ci.org/api-ai/api-ai-python.svg">](https://travis-ci.org/api-ai/api-ai-python)
 
 Overview
 --------
 
-The API.AI Python SDK makes it easy to integrate speech recognition with API.AI natural language processing API. API.AI allows using voice commands and integration with dialog scenarios defined for a particular agent in API.AI.
+The DialogFlow Python SDK makes it easy to integrate speech recognition with DialogFlow natural language processing DialogFlow allows using voice commands and integration with dialog scenarios defined for a particular agent in DialogFlow.
 
 Prerequsites
 --------
 
-Create an `API.AI account <http://api.ai>`_.
+Create a `DialogFlow account <http://dialogflow.com>`_.
 
 
 Running examples
@@ -40,7 +35,7 @@ Features
 Installation
 ------------
 
-To install apiai, simply:
+To install DialogFlow/api.ai, simply:
 
 .. code-block:: bash
 
@@ -50,7 +45,7 @@ or install it from repo:
 
 .. code-block:: bash
 
-    $ pip install https://github.com/api-ai/api-ai-python.git
+    $ pip install https://github.com/dialogflow/dialogflow-python-client.git
 
 You might run into problems because some dependencies in your python environment are missing. You need to install numpy (which is available in almost all package managers). For running the examples you also need python audio.
 
@@ -64,7 +59,7 @@ In ubuntu the following will do the job:
 Documentation
 -------------
 
-Documentation is available at http://api.ai.
+Documentation is available at http://dialogflow.com.
 
 ## How to make contributions?
 Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md).
